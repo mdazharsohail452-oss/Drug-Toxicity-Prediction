@@ -95,7 +95,7 @@ if st.button("🔍 Predict Toxicity", use_container_width=True):
     st.metric("Toxicity Risk Probability", f"{prob:.2%}")
 
     if prediction == 1:
-        st.error("⚠️ Potentially Toxic Compound")
+        st.error("⚠️Potentially Toxic Compound")
     else:
         st.success("✅ Likely Non-Toxic Compound")
 
